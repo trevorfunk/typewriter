@@ -9,3 +9,6 @@ for (const char of sentence) {
   time += 100;
 }
 
+setTimeout(() => {
+ process.stdout.write("\n");
+}, x);
